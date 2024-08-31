@@ -1,3 +1,4 @@
-.container > p {
+.container ~ p,
+h1 {
   color: green;
 }

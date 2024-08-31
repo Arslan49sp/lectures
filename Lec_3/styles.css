@@ -1,4 +1,3 @@
-a[href$=".com"] {
+.container > p {
   color: green;
-  display: block;
 }

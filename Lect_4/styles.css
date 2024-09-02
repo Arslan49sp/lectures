@@ -1,0 +1,7 @@
+.container p:last-of-type {
+  color: green;
+}
+
+ul :nth-of-type(even) {
+  color: green;
+}

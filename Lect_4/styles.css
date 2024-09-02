@@ -1,7 +1,13 @@
-.container p:last-of-type {
-  color: green;
+p::first-letter {
+  font-size: 150%;
+  font-weight: bold;
 }
 
-ul :nth-of-type(even) {
-  color: green;
+p::first-line {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+::selection {
+  background-color: yellow;
 }

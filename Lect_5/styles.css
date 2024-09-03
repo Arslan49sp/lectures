@@ -1,8 +1,6 @@
-p {
-  color: green;
-  border: 5px solid tomato;
+.container {
+  width: 150px;
+  height: 150px;
+  background: radial-gradient(yellow, blue);
 }
-
-strong {
-  border: inherit;
-}
+/* Red Green Blue */

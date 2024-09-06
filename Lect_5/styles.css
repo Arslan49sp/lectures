@@ -1,6 +1,7 @@
 .container {
   width: 150px;
   height: 150px;
-  background: radial-gradient(yellow, blue);
+  background-color: blue;
+  border: 5px solid gray;
+  border-radius: 100%;
 }
-/* Red Green Blue */

@@ -1,4 +1,17 @@
-p {
-  padding: 0;
-  margin: 20px;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+}
+.box {
+  height: 250px;
+  width: 250px;
+  background-color: gold;
+  padding: 20px;
+  border: 10px solid tomato;
+  display: inline-block;
 }

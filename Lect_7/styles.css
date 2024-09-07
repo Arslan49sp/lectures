@@ -1,7 +1,10 @@
+html {
+}
+body {
+  margin: 0;
+}
 .box {
-  width: 150px;
-  height: 150px;
-  border: 5px solid gray;
-  box-sizing: border-box;
-  overflow: auto;
+  width: 16.5rem;
+  height: 16.5rem;
+  background-color: green;
 }

@@ -1,0 +1,14 @@
+.tweet {
+  border: 5px solid tomato;
+}
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  float: right;
+  margin: 0.5rem;
+}
+
+.clear {
+  clear: both;
+}

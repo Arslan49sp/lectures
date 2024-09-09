@@ -1,0 +1,28 @@
+.boxes {
+  width: 100%;
+  height: 200vh;
+  border: 5px solid gray;
+  position: relative;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+}
+
+.box-one {
+  background-color: green;
+}
+
+.box-two {
+  background-color: yellow;
+  position: fixed;
+  top: 0;
+  width: auto;
+  right: 2rem;
+  left: 2rem;
+}
+
+.box-three {
+  background-color: dodgerblue;
+}

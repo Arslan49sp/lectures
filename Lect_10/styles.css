@@ -1,0 +1,24 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: 100px auto 100px;
+  grid-template-columns: 30fr 70fr;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    ". arslan";
+  border: 5px solid lightgray;
+  gap: 10px;
+  height: 100vh;
+}
+
+.box {
+  background-color: gold;
+}
+
+.box-one {
+  grid-area: header;
+}
+
+.box-four {
+  grid-area: arslan;
+}

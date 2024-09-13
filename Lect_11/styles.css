@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.first {
+  margin: 0;
+  background-color: dodgerblue;
+}
+
+.second {
+  margin: 0;
+  background-color: gold;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    border: 10px solid gray;
+  }
+}

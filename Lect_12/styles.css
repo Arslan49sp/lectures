@@ -17,6 +17,10 @@ html {
   font-size: 62.5%;
 }
 
+h1 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
 p {
   font-family: "open_sans", Arial, Helvetica, sans-serif;
 }

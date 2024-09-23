@@ -22,14 +22,6 @@ h1 {
   color: green;
 }
 
-h2 {
-  color: Blue;
-}
-
-h3 {
-  color: tomato;
-}
-
-h4 {
-  color: dodgerblue;
+p {
+  text-transform: capitalize;
 }

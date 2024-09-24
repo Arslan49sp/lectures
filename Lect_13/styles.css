@@ -23,5 +23,7 @@ h1 {
 }
 
 p {
+  width: 100%;
+  max-width: 500px;
   text-transform: capitalize;
 }

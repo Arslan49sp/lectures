@@ -34,5 +34,5 @@
 }
 
 .meal:hover {
-  filter: drop-shadow(16px 16px 20px red) invert(75%);
+  filter: grayscale(50%);
 }

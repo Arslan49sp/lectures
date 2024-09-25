@@ -33,14 +33,6 @@
   background: url("../images/image/css_sprites.png") -490px -10px;
 }
 
-.meal {
-  clip-path: polygon(
-    0% 20%,
-    60% 20%,
-    60% 0%,
-    100% 50%,
-    60% 100%,
-    60% 80%,
-    0% 80%
-  );
+.meal:hover {
+  filter: drop-shadow(16px 16px 20px red) invert(75%);
 }

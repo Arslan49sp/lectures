@@ -1,6 +1,10 @@
 form {
   width: 50%;
-  margin: 0 1.5rem;
+  margin: 1.5rem;
+}
+
+textarea {
+  resize: none;
 }
 
 /* html {

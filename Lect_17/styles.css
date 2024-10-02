@@ -1,4 +1,9 @@
-html {
+form {
+  width: 50%;
+  margin: 0 1.5rem;
+}
+
+/* html {
   font-size: 62.5%;
 }
 
@@ -44,4 +49,4 @@ button:hover {
 
 .form-group {
   margin: 1.5rem 0;
-}
+} */

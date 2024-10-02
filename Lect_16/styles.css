@@ -1,5 +1,9 @@
-body {
-  background: url(../images//image//bg-decent.svg);
-  background-size: cover;
-  background-attachment: fixed;
+.icon {
+  font-size: 2rem;
+  color: blue;
+}
+
+.text {
+  font-size: 2rem;
+  margin-left: 1rem;
 }

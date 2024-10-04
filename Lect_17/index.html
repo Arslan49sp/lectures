@@ -15,20 +15,16 @@
     />
   </head>
   <body>
-    <form>
-      <fieldset>
-        <legend>Medical Information</legend>
-        <input type="text" placeholder="name" /><input type="text" /><input
-          type="text"
-        />
-      </fieldset>
-
-      <fieldset>
-        <legend>Billing Information</legend>
-        <input type="text" placeholder="Bank name" /><input type="text" /><input
-          type="text"
-        />
-      </fieldset>
+    <form action="https://formspree.io/f/xnnqapzl" method="post">
+      <input type="text" id="name" name="name" placeholder="Name" required />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Email"
+        required
+      />
+      <button>Submit</button>
     </form>
   </body>
 </html>

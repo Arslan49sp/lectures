@@ -16,18 +16,14 @@
   </head>
   <body>
     <form>
-      <select>
-        <optgroup label="Front-end cources">
-          <option value="1">HTML</option>
-          <option value="2">CSS</option>
-          <option value="3">JavaScript</option>
-        </optgroup>
-        <optgroup label="Back-end cources">
-          <option value="1">JavaScript</option>
-          <option value="2">Node</option>
-          <option value="3">Laravel</option>
-        </optgroup>
-      </select>
+      <div>
+        <input type="checkbox" id="front" />
+        <label class="label-inline" for="front">Front-end Developer</label>
+      </div>
+      <div>
+        <input type="checkbox" id="back" checked disabled />
+        <label class="label-inline" for="back">Backend-end developer</label>
+      </div>
     </form>
   </body>
 </html>

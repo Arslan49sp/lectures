@@ -16,8 +16,15 @@
   </head>
   <body>
     <form>
-      <input type="text" value="Arslan" />
-      <textarea placeholder="Enter your last message to your GF"></textarea>
+      <label for="city">City</label>
+      <input list="cities" id="city" type="text" autocomplete="off" />
+      <datalist id="cities">
+        <option data-value="1">Raiwind</option>
+        <option>Lahore</option>
+        <option>Islamabad</option>
+        <option>Karachi</option>
+        <option>Multan</option>
+      </datalist>
     </form>
   </body>
 </html>

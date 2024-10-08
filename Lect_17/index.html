@@ -15,16 +15,20 @@
     />
   </head>
   <body>
-    <form action="https://formspree.io/f/xnnqapzl" method="post">
-      <input type="text" id="name" name="name" placeholder="Name" required />
+    <form>
+      <label for="city"></label>
       <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder="Email"
-        required
+        list="cities"
+        id="city"
+        type="text"
+        autocomplete="off"
+        placeholder="City"
       />
-      <button>Submit</button>
+      <datalist id="cities">
+        <option>Lahore</option>
+        <option>Islamabad</option>
+        <option>Karachi</option>
+      </datalist>
     </form>
   </body>
 </html>

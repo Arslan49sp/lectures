@@ -110,3 +110,27 @@ a {
     font-size: 1.2rem;
   }
 }
+
+/* ======================== Lists ====================== */
+.list {
+  list-style: none;
+  padding-left: 0;
+  color: var(--color-heading);
+}
+
+.list--inline .list__items {
+  display: inline-block;
+  margin-left: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.list--tick {
+  list-style-image: url(../icons/tick.svg);
+  margin-left: 3rem;
+}
+
+.list--tick .list__items {
+  padding-left: 0.5rem;
+  font-weight: bold;
+}
